@@ -1,0 +1,668 @@
+body{
+    font-family: helvetica;
+    justify-content: center;
+}
+
+.navbar{
+    font-weight: 400;
+    font-size: 14px;
+    z-index: 999999;
+}
+
+.navbar-brand{
+    background-color: #0D28A6;
+    color: white;
+    padding: 0px 10px;
+    border-radius: 2px;
+    border-bottom-right-radius: 12px;
+    border-bottom-left-radius: 12px;
+    z-index: 999999;
+}
+.nav-link{
+    font-size: 14px;
+    z-index: 999999;
+}
+
+.nav-item a{
+    font-weight: 500;
+    z-index: 999999;
+}
+
+.btn.btn-success{
+    background-color: #5CB85F;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 12px;
+    border-radius: 2px;
+    border: none;
+}
+
+.btn.btn-success:hover{
+    background-color: #82ff86;
+    border: none;
+}
+
+.btn.btn-success:active{
+    background-color: #418b43;
+}
+
+.navbar-nav > li{
+    margin: 0px 10px;
+}
+
+.home{
+    height: fit-content;
+    background-color: #F1F3FF;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.container-fluid.container-home-greet{
+    align-items: center;
+}
+
+.greet{
+    font-weight: 700;
+    font-size: 36px;
+}
+
+.greet-desc{
+    font-weight: 300;
+    font-size: 12px;
+}
+
+.container-image{
+    width: 93%;
+}
+
+.transition-all{
+    transition: 0.3s;
+}
+
+.border-my{
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+
+.wrapper{
+    display: inline-block;
+    position:relative;
+    max-width: 100%;
+  }
+  .big-img{
+    width: 100%;
+    right: 0;
+    transform: scale(1.05);
+    margin-top: 170px;
+  }
+  .small-img{
+    position:absolute;
+    right: 0;
+    top: 10%;
+    width: 100%;
+    max-width:100%;
+    transform: scale(0.95);
+  }
+
+  .container.container-girl{
+      top: 10%;
+      position: relative;
+      background-color: #0D28A6;
+      width: 350px;
+      height: 350px;
+      border-radius: 50%;
+  }
+
+  .container-fluid.container-sect{
+      margin-top: 100px;
+  }
+
+  .col-lg-6 li{
+      list-style: none;
+      margin-top: 20px;
+  }
+
+  .col-lg-6 ul{
+      padding: 0%;
+  }
+
+  .big-img-girl{
+    width: 100%;
+    transform: scale(0.74);
+  }
+  .small-img-girl{
+    position:absolute;
+    right: 0;
+    bottom: 11%;
+    width: 100%;
+    max-width:100%;
+    transform: scale(0.8);
+  }
+
+  .small-img-circ1{
+    position:absolute;
+    right: 33%;
+    bottom: 36%;
+    width: 100%;
+    max-width:100%;
+    transform: scale(0.2);
+  }
+
+  .small-img-circ2{
+    position:absolute;
+    right: 36%;
+    top: 30%;
+    width: 100%;
+    max-width:100%;
+    transform: scale(0.09);
+  }
+
+  .small-img-circ3{
+    position:absolute;
+    left: 27%;
+    bottom: 36%;
+    width: 100%;
+    max-width:100%;
+    transform: scale(0.05);
+  }
+
+  .our-service-greet{
+      font-weight: 700;
+      font-size: 36px;
+  }
+
+  .our-service-desc{
+      font-weight: 300;
+      font-size: 14px;
+  }
+  
+  .col-lg-6 ul p{
+      font-weight: 300;
+      font-size: 14px;
+  }
+  
+
+  .whyus{
+      font-weight: 700;
+      font-size: 24px;
+      margin-bottom: 16px;
+  }
+
+  .whyus-desc{
+      font-weight: 300;
+      font-size: 14px;
+  }
+
+  .card-title{
+      font-weight: 700;
+      font-size: 16px;
+      margin-top: 16px;
+      margin-bottom: 16px;
+  }
+
+  .card-text{
+      font-weight: 300;
+      font-size: 14px;
+  }
+
+  .card{
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      border-radius: 8px;
+      box-sizing: border-box;
+      border: 1px solid #D0D0D0;
+      margin-top: 40px;
+  }
+
+  .footer{
+      color: white;
+  }
+
+  .col-lg-3.col-md-6 a{
+      display: block ;
+      margin-bottom: 16px;
+  }
+
+  .col-lg-3.col-md-6 ul li{
+    text-decoration: none;
+    color: black;
+    list-style: none;
+}
+
+.sosmed a{
+    display: inline;
+}
+
+@media (min-width: 1200px) {
+    .my-container{
+        width: 500px;
+    }
+}
+
+.sewa-main{
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.sewa-desc{
+    text-align: center;
+    font-weight: 300;
+    font-size: 14px;
+    color: #FFFFFF;
+}
+
+.mulai-sewa{
+    background-color: #5CB85F;
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+    border: none;
+    height: 36px;
+    border-radius: 2px;
+    padding: 8px 12px 8px 12px;
+    text-decoration: none;
+    transition: 0.3s;
+    outline: none;
+    box-shadow: none;
+}
+
+.mulai-sewa:focus{
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+
+.mulai-sewa:hover{
+    background-color: #82ff86;
+    border: none;
+    transition: 0.3s;
+    outline: none;
+    box-shadow: none;
+}
+
+.mulai-sewa:active{
+    background-color: #418b43;
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+
+.button-sewa{
+    background-color: #5CB85F;
+    padding: 8px 12px;
+    color: white;
+    font-weight: bold;
+    border-radius: 2px;
+    border: none;
+    transition: .3s;
+}
+
+.button-sewa:hover{
+    color: white;
+    background-color: #82ff86;
+    transition: .3s;
+}
+
+.button-sewa:active{
+    background-color: #418b43;
+    box-shadow: #5CB85F;
+}
+
+.container.container-mulai-sewa{
+    padding-top: 64px;
+    margin-bottom: 64px;
+    width: 100%;
+    height: 326px;
+    background-color: #0D28A6;
+    border-radius: 13px;
+}
+
+.container.faq{
+    position: relative;
+    left: 5%;
+}
+
+  .accordion-item{
+      border: 3px solid #D4D4D4;
+      margin-bottom: 16px;
+      outline: black;
+  }
+  
+  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+  .on, .accordion:hover {
+    border: none;
+  }
+
+  .accordion-header button{
+      font-weight: 300;
+      font-size: 14px;
+  }
+
+  .accordion-body p{
+      font-weight: 300;
+      font-size: 14px;
+  }
+
+  footer{
+      background-color: #fff;
+  }
+
+  .col-lg-3 a{
+      font-weight: 300;
+      font-size: 14px;
+
+  }
+
+  .col-lg-3 .navigation-bot{
+      font-weight: 400;
+      font-size: 14px;
+  }
+
+.carousel-cell{
+    height: max-content;;
+    padding: 50px 30px;
+    margin: 0px 10px;
+    border-radius: 19px;
+}
+
+.col-2 img{
+    margin-top: 20px;
+    outline: 2px solid rgb(109, 64, 85);
+}
+
+.col-10 p{
+    font-size: 14px;
+    font-weight: 300;
+    margin: 8px 0px;
+}
+
+.col-10 h1{
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.custom-select{
+    margin-bottom: 1rem;
+}
+
+.container.container-pilih{
+    padding: 2rem 2rem;
+    position: relative;
+    margin-top: -4rem !important;
+}
+
+.row.row-sewa{
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    box-shadow: 0px 0px 4px rgb(153, 153, 153);
+}
+
+.form-cari{
+    position: relative;
+    top: -7rem !important;
+}
+
+@media only screen and (max-width: 600px){
+    .whyus, .whyus-desc{
+        text-align: center;
+    }
+
+    .card-body{
+        width: 70%;
+    }
+
+    .accordion.container{
+        align-items: center;
+        display: inline-block;
+        width: 100%;
+        column-width: 100%;
+    }
+
+    .carousel-cell{
+        margin-left: 15px;
+        margin-right: 100px;
+        width: 85%;
+    }
+
+    .carousel-cell .col-lg-2{
+        text-align: center;
+        left: -10%;
+        margin-bottom: 1rem;
+    }
+
+    .carousel-cell .row .col-10{
+        text-align: center;
+        left: 10%;
+    }
+
+    .carousel-cell .row .col-10 p,h1{
+        margin-top: 1rem;
+        text-align: left;
+    }
+
+    .carousel-cell .row .col-10 .d-flex{
+        justify-content: center;
+        position: relative;
+        left: -3%;
+    }
+
+    .col.col-accordion{
+        left: 5%;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .card-body{
+        width: 500px;
+    }
+
+    .whyus, .whyus-desc{
+        text-align: center;
+    }
+
+    .col-lg-6.car .big-img{
+        width: 99.9%;
+    }
+
+    .carousel-cell{
+        margin-left: 10px;
+        margin-right: 100px;
+        width: 85%;
+    }
+
+    .carousel-cell .col-lg-2{
+        text-align: center;
+        left: -10%;
+    }
+
+    .carousel-cell .row .col-10{
+        text-align: center;
+        left: 10%;
+    }
+
+    .carousel-cell .row .col-10 p,h1{
+        margin-top: 1rem;
+        text-align: left;
+    }
+
+    .carousel-cell .row .col-10 .d-flex{
+        justify-content: center;
+        position: relative;
+        left: -3%;
+    }
+
+
+}
+
+@media only screen and (min-width: 990px){
+    .btn-sidebar{
+        opacity: 0;
+        position: absolute;
+        background-color: transparent;
+        border: none;
+    }
+    
+    .btn-sidebar:active{
+        background-color: none;
+        color: none;
+        outline: none;
+        border: none;
+    }
+
+    .sidebar-button{
+        background-color: #F1F3FF;
+    }
+
+}
+
+@media only screen and (max-width: 990px){
+    .carousel-cell{
+        margin-left: 20px;
+        width: 85%;
+    }
+
+    .carousel-cell .col-lg-2{
+        text-align: center;
+        left: -10%;
+        margin-bottom: 1rem;
+    }
+
+    .carousel-cell .row .col-10{
+        text-align: center;
+        left: 10%;
+    }
+
+    .carousel-cell .row .col-10 p,h1{
+        margin-top: 1rem;
+        text-align: left;
+    }
+
+    .carousel-cell .row .col-10 .d-flex{
+        justify-content: center;
+        position: relative;
+        left: -3%;
+    }
+
+    .navbar-brand.text-light{
+        margin-left: 0rem !important;
+    }
+
+
+    .btn-sidebar{
+        opacity: 1;
+        position: fixed;
+        right: 2%;
+        top: 1%;
+        z-index: 999999;
+        background-color: transparent;
+        border: none;
+    }
+
+    .accordion.container{
+        align-items: center;
+        display: inline-block;
+        width: 100%;
+        column-width: 100%;
+    }
+
+    .col.col-accordion{
+        left: 5%;
+    }
+
+    .offcanvas{
+        width: 50%;
+        background-color: #F1F3FF;
+    }
+
+    .offcanvas-header{
+        top: 10%;
+    }
+        
+    .navbar-toggler{
+        z-index: -99999;
+        opacity: 0;
+    }
+
+    .nav-item{
+        margin: 4px 0px;
+        color: black;
+        position: relative;
+        font-weight: 400;
+        width: max-content;
+    }
+
+    .btn-close.text-reset{
+        position: relative;
+        left: 85%;
+        top: 4.8%;
+        z-index: 999999;
+    }
+
+    .container.faq{
+        text-align: center;
+    }
+
+    .fade.show{
+        opacity: 0.7;
+    }
+
+    .container.container-mulai-sewa{
+        padding: 35px 15px;
+        width: 93%;
+    }
+
+    .btn-close{
+        position: relative;
+        top: 5%;
+        left: 7%;
+    }
+
+    .btn.btn-success.sidebar{
+        width: 100%;
+
+    }
+
+    .sidebar-button{
+        position: relative;
+        left: 0;
+    }
+
+    .card-body{
+        width: 100%;
+    }
+
+    .whyus, .whyus-desc{
+        text-align: center;
+    }
+
+    .flickity-button.flickity-prev-next-button.previous{
+        background: url(./left.svg);
+        background-size: 100%;
+        position: absolute;
+        top: 110%;
+        left: 35%;
+    }
+    
+    .flickity-button.flickity-prev-next-button.next{
+      background: url(./right.svg);
+      background-size: 100%;
+      position: absolute;
+      top: 110%;
+      right: 35%;
+    }
+}
+
+@media only screen and (min-width:1199.98px){
+    .card-body{
+        width: 15rem;
+    }
+}
+
+
+  
+  
